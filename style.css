@@ -56,7 +56,7 @@ input {
   padding-bottom: 30px;
   background-color: var(--white);
   border: solid var(--black);
-  box-shadow: 10px 10px 5px 0px var(--grey);
+  box-shadow: 10px 10px 5px var(--grey);
   width: 10%;
   max-width: 400px;
 }
@@ -75,7 +75,7 @@ button {
   color: var(--black);
   border-radius: 10px;
   box-shadow: var(--grey);
-  box-shadow: 10px 10px 5px 0px var(--gold);
+  box-shadow: 10px 10px 5px var(--gold);
 }
 
 .btn:hover {
@@ -88,7 +88,8 @@ button {
   .box {
     margin-left: 100px;
     margin-right: 100px;
-  }  
+  }
+
   input,
   button {
     padding-left: 50px;
@@ -102,6 +103,7 @@ button {
     margin-left: 50px;
     margin-right: 50px;
   }
+
   input,
   button {
     padding-left: 30px;
@@ -110,12 +112,13 @@ button {
 }
 
 @media (max-width: 480px) {
-  h1, 
+  h1,
   .box {
     margin-left: 20px;
     margin-right: 20px;
-    font-size: smaller; 
-  }  
+    font-size: smaller;
+  }
+
   input,
   button {
     padding-left: 15px;
