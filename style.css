@@ -3,7 +3,7 @@
   --yellow: rgba(224, 221, 150, 0.906);
   --gold: #fef9d8ed;
   --black: rgba(43, 43, 38, 0.929);
-} 
+}
 
 h1 {
   text-align: center;
@@ -84,37 +84,40 @@ button {
 }
 
 @media (max-width: 1200px) {
-  h1, .box {
+  h1,
+  .box {
     margin-left: 100px;
     margin-right: 100px;
-  }
-    
-  input, button {
+  }  
+  input,
+  button {
     padding-left: 50px;
     padding-right: 50px;
   }
 }
 
 @media (max-width: 768px) {
-  h1, .box {
+  h1,
+  .box {
     margin-left: 50px;
     margin-right: 50px;
   }
-  
-  input, button {
+  input,
+  button {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 
 @media (max-width: 480px) {
-  h1, .box {
+  h1, 
+  .box {
     margin-left: 20px;
     margin-right: 20px;
     font-size: smaller; 
-  }
-    
-  input, button {
+  }  
+  input,
+  button {
     padding-left: 15px;
     padding-right: 15px;
     width: 80%; 
@@ -124,4 +127,3 @@ button {
     font-size: 18px;
   }
 }
-  
