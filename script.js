@@ -6,7 +6,7 @@ function convertToRoman() {
   if (number.value === '') {
     output.innerHTML = 'Please enter a valid number';
     return;
-  } else if (number.value < 1) {
+  } if (number.value < 1) {
     output.innerHTML = 'Please enter a number greater than or equal to 1';
     return;
   }
@@ -22,12 +22,12 @@ function convertToRoman() {
   let num = parseInt(number.value, 10);
   let romanNumeral = '';
 
-  for (let i = 0; i < romanValues.length; i++) {
-    while (num >= romanValues[i]) {
-      romanNumeral += romanSymbols[i];
-      num -= romanValues[i];
+  for (const [i, value] of romanValues.entries()) {
+    while (num >= value) {
+        romanNumeral += romanSymbols[i];
+        num -= value;
     }
-  }
+}
 
   output.innerHTML = romanNumeral;
 }
