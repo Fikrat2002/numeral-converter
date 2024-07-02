@@ -6,7 +6,7 @@ function convertToRoman() {
   if (number.value === '') {
     output.innerHTML = 'Please enter a valid number';
     return;
-  } 
+  }
   if (number.value < 1) {
     output.innerHTML = 'Please enter a number greater than or equal to 1';
     return;
