@@ -42,9 +42,8 @@ cd numeral-converter
 ```
 
 ## Usage 🎯
-To check if a word or phrase is a palindrome:
 
-1. Input a number into the designated field.
+1. Input any number into the designated field.
 2. Click the "Convert" button to instantly see its Roman numeral representation.
 
 
