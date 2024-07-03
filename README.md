@@ -10,7 +10,7 @@ The Roman Numeral Converter simplifies the process of converting standard number
 
 - Explore the project in action:
 
-(#<img width="956" alt="Screenshot 2024-06-28 113336" src="https://github.com/Fikrat2002/numeral-converter/assets/168417613/6b0906d2-4763-440e-a28c-f90fc188509f">>
+(#<img width="956" alt="Screenshot 2024-07-03 143231" src="https://github.com/Fikrat2002/numeral-converter/assets/168417613/dd5112b0-772d-4951-8a65-c7f7021d82c1">
 )
 
 ## Live Deployment
